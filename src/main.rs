@@ -1,3 +1,7 @@
 fn main() {
-    println!("Hello, world!");
+    //declarando variavel - em rust variaveis sao imutaveis
+    let mut name: &str = "Marcelo";
+    name = "Alice";
+
+    println!("Hello {}, Welcome!", name);
 }
