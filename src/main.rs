@@ -1,7 +1,9 @@
 fn main() {
     //declarando variavel - em rust variaveis sao imutaveis
-    let mut name: &str = "Marcelo";
-    name = "Alice";
+    let mut name = "Marcelo";
+    let x = 23;
+    let y = 6.7;
+    let b = true;
 
-    println!("Hello {}, Welcome!", name);
+    println!("Hello {}, {} * {}, {}!", name, x, y, b);
 }
