@@ -1,9 +1,10 @@
 fn main() {
-    //declarando variavel - em rust variaveis sao imutaveis
-    let mut name = "Marcelo";
-    let x = 23;
-    let y = 6.7;
-    let b = true;
+    let number1 = 24;
+    let number2 = 42;
 
-    println!("Hello {}, {} * {}, {}!", name, x, y, b);
+    if number1 > number2 {
+        println!("{}", number1)
+    } else {
+        println!("{}", number2)
+    }
 }
